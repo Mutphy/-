@@ -38,7 +38,7 @@ import cn.itcast.s.R;
 public class trainlist extends AppCompatActivity {
 
     private static final String URL="https://api.jisuapi.com/train/station2s";//需要用到的服务器连接
-    private static final String APPKEY="6c13ef428ea8111a";//个人注册获得的密钥
+    private static final String APPKEY="**************";//个人注册获得的密钥
     private ListView listView;
     private Mybase_train adapter; //列车列表适配器
     private String time;
