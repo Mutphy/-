@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/demo1"
+    tools:context=".activity.MainActivity">
+
+    <EditText
+        android:id="@+id/edit_start"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="111dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:text="北京"
+        android:textSize="30dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/swith"
+        android:layout_width="48dp"
+        android:layout_height="47dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-17dp"
+        android:layout_marginTop="118dp"
+        android:layout_toRightOf="@+id/edit_start"
+        android:background="@drawable/swith" />
+
+    <EditText
+        android:id="@+id/edit_end"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:gravity="center_vertical|right"
+        android:text="上海"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/time"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_start"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="19dp"
+        android:text="现在时间"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+        <CheckBox
+            android:id="@+id/rb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="高铁动车"
+            android:textColor="@android:color/black"
+            android:layout_below="@+id/time"
+            android:layout_marginStart="22dp"
+            android:layout_marginLeft="22dp"/>
+
+    <Button
+        android:id="@+id/sclik"
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="299dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginRight="69dp"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:text="火车票查询"
+
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="57dp"
+        android:background="#A2BADD" />
+
+    <ImageView
+        android:id="@+id/home"
+        android:layout_width="26dp"
+        android:layout_height="27dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/home" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginBottom="3dp"
+        android:text="首页"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/order"
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="113dp"
+        android:layout_marginRight="113dp"
+        android:layout_marginBottom="24dp"
+        android:layout_toStartOf="@+id/mine"
+        android:layout_toLeftOf="@+id/mine"
+        android:background="@drawable/order" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="192dp"
+        android:layout_marginRight="192dp"
+        android:layout_marginBottom="3dp"
+        android:text="订单"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/mine"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="51dp"
+        android:layout_marginRight="51dp"
+        android:layout_marginBottom="26dp"
+        android:background="@drawable/mine" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="51dp"
+        android:layout_marginRight="51dp"
+        android:layout_marginBottom="4dp"
+        android:text="我的"
+        android:textColor="@android:color/black" />
+
+
+</RelativeLayout>

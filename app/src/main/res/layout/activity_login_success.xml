@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F3F3"
+    tools:context=".activity.Login_success">
+    <TextView
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="账户管理"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:background="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/account"
+        android:layout_width="152dp"
+        android:layout_height="51dp"
+        android:layout_below="@+id/top"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="22dp"
+        android:background="@android:color/white"
+        android:gravity="center_vertical|left"
+        android:text=" 智行账号："
+        android:textColor="@android:color/black"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="254dp"
+        android:layout_height="51dp"
+        android:layout_below="@+id/top"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="22dp"
+        android:layout_toRightOf="@+id/account"
+        android:background="@android:color/white"
+        android:gravity="center_vertical|right"
+        android:text="111111111"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/out"
+        android:layout_width="339dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="43dp"
+        android:background="@drawable/shape"
+        android:text="退出登录"
+        android:textSize="20dp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="2dp"
+        android:background="@android:color/white">
+
+
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="26dp"
+            android:layout_height="27dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="42dp"
+            android:layout_marginLeft="42dp"
+            android:layout_marginBottom="28dp"
+            android:background="@drawable/home" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="42dp"
+            android:layout_marginLeft="42dp"
+            android:layout_marginBottom="3dp"
+            android:text="首页"
+            android:textColor="@android:color/black" />
+
+
+        <ImageView
+            android:id="@+id/order"
+            android:layout_width="25dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="115dp"
+            android:layout_marginRight="115dp"
+            android:layout_marginBottom="22dp"
+            android:layout_toStartOf="@+id/mine"
+            android:layout_toLeftOf="@+id/mine"
+            android:background="@drawable/order" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="190dp"
+            android:layout_marginRight="190dp"
+            android:layout_marginBottom="0dp"
+            android:text="订单"
+            android:textColor="@android:color/black" />
+
+        <ImageView
+            android:id="@+id/mine"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="51dp"
+            android:layout_marginRight="51dp"
+            android:layout_marginBottom="26dp"
+            android:background="@drawable/mine" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="51dp"
+            android:layout_marginRight="51dp"
+            android:layout_marginBottom="4dp"
+            android:text="我的"
+            android:textColor="@android:color/black" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

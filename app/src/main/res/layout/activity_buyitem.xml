@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".activity.Buyitem">
+
+    <RelativeLayout
+        android:id="@+id/item"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#3974E9">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/show"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="车次详情"
+            android:textColor="@android:color/white"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:id="@+id/liststime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="55dp"
+            android:text="12:45"
+            android:textColor="@android:color/white"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/listetime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="55dp"
+            android:layout_marginEnd="21dp"
+            android:layout_marginRight="21dp"
+            android:text="18:38"
+            android:textColor="@android:color/white"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/lists"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/liststime"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="9dp"
+            android:text="北京南"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/listtype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="89dp"
+            android:layout_marginLeft="89dp"
+            android:layout_marginTop="106dp"
+            android:layout_toEndOf="@+id/lists"
+            android:layout_toRightOf="@+id/lists"
+            android:text="G167"
+            android:textColor="@android:color/white"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/liste"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/listetime"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="34dp"
+            android:layout_marginRight="34dp"
+            android:text="杭州东"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/price2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="57dp"
+        android:text="二等座"
+        android:textColor="@android:color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/price22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="57dp"
+        android:layout_toRightOf="@+id/price2"
+        android:text="￥553"
+        android:textColor="#F71A1A"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/ticket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item"
+        android:layout_marginLeft="73dp"
+        android:layout_marginTop="59dp"
+        android:layout_toRightOf="@+id/price22"
+        android:text="有票"
+        android:textColor="@android:color/black"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/buy2"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_below="@id/item"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@+id/ticket"
+        android:background="@drawable/shape"
+        android:text="购买"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/price1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/price2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="32dp"
+        android:text="一等座"
+        android:textColor="@android:color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/price11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/price22"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="32dp"
+        android:layout_toRightOf="@+id/price1"
+        android:text="￥933"
+        android:textColor="#F71A1A"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/ticket1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ticket"
+        android:layout_marginLeft="73dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/price11"
+        android:text="有票"
+        android:textColor="@android:color/black"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/buy1"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_below="@id/buy2"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="23dp"
+        android:layout_toRightOf="@+id/ticket1"
+        android:background="@drawable/shape"
+        android:text="购买"
+        android:textSize="17dp" />
+    <TextView
+        android:id="@+id/price3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/price1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="32dp"
+        android:text="商务座"
+        android:textColor="@android:color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/price33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/price11"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="32dp"
+        android:layout_toRightOf="@+id/price3"
+        android:text="￥1748"
+        android:textColor="#F71A1A"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/ticket2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ticket1"
+        android:layout_marginLeft="73dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/price11"
+        android:text="有票"
+        android:textColor="@android:color/black"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/buy3"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_below="@id/buy1"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="23dp"
+        android:layout_toRightOf="@+id/ticket1"
+        android:background="@drawable/shape"
+        android:text="购买"
+        android:textSize="17dp" />
+
+    <View
+        android:layout_width="368dp"
+        android:layout_height="1dp"
+        android:layout_below="@+id/price2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:background="#DBD5D5" />
+    <View
+        android:layout_width="368dp"
+        android:layout_height="1dp"
+        android:layout_below="@+id/price1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:background="#D8D3D3" />
+
+
+</RelativeLayout>

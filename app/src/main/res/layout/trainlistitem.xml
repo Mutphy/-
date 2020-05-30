@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/liststime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="22dp"
+        android:text="12:45"
+        android:textColor="#1270E6"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/longtime"
+        android:layout_width="84dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="27dp"
+        android:layout_toEndOf="@+id/liststime"
+        android:layout_toRightOf="@+id/liststime"
+        android:text="05小时53分"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/listetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_toEndOf="@+id/longtime"
+        android:layout_toRightOf="@+id/longtime"
+        android:text="18:38"
+        android:textColor="@android:color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/listcost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:text="￥538.5"
+        android:textColor="#F44336"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/lists"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/liststime"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="10dp"
+        android:text="北京南"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/listtype"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/longtime"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="12dp"
+        android:layout_toEndOf="@+id/lists"
+        android:layout_toRightOf="@+id/lists"
+        android:text="G167"
+        android:textColor="#8894A0" />
+
+    <TextView
+        android:id="@+id/liste"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listetime"
+        android:layout_marginStart="67dp"
+        android:layout_marginLeft="67dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/listtype"
+        android:layout_toRightOf="@+id/listtype"
+        android:text="杭州东"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/p1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lists"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="14dp"
+        android:text="二等座"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/p2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listtype"
+        android:layout_marginStart="69dp"
+        android:layout_marginLeft="69dp"
+        android:layout_marginTop="14dp"
+        android:layout_toEndOf="@+id/p1"
+        android:layout_toRightOf="@+id/p1"
+        android:text="一等座"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/p3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/liste"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginRight="112dp"
+        android:text="商务座"
+        android:textColor="@android:color/black" />
+
+
+</RelativeLayout>

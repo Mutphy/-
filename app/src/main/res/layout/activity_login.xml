@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".activity.Login">
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        android:background="@drawable/shape"/>
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="56dp"
+        android:text="您好，"
+        android:textColor="@android:color/black"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/come"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hello"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="0dp"
+        android:text="欢迎登录/注册智行"
+        android:textColor="@android:color/black"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/namber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/come"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="48dp"
+        android:text="+86"
+        android:textColor="#888585"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/account"
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/come"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="39dp"
+        android:layout_toRightOf="@+id/namber"
+        android:hint="请输入手机号"
+        android:textColor="@android:color/black"
+        android:textColorHint="#ACAAAA"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/account"
+        android:hint="请输入密码"
+        android:textSize="20dp"
+        android:textColorHint="#ACAAAA"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginRight="43dp"
+        android:background="@drawable/shape"
+        android:text="登录"
+        android:textSize="20dp" />
+
+</RelativeLayout>
